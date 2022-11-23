@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*formulario*/
+p{
+    padding: 20px;
+    text-align: center;
+}
+section{
+    padding: 5px;
+}
+div h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+}
+.formulario{
+    width: 400px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    padding-right: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    
+}
+input{/*espacio para rellenar nombre y correo*/
+    width: 100%;
+    background: #fdfeff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    border:1px solid #0a0b0c;
+    font-size: 18px;
+    
+}
+form textarea{/*texto libre*/
+    width: 100%;
+    background: #feffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    border:1px solid #0f0f0f;
+    font-size: 18px;
+}
+form button{
+    width: 100%;
+    background: #4d535f;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.texto{
+    padding: 30px;
+    text-align: center;
+    font-weight: 10%;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    section{
+        width: 100%;
+    }
+.formulario{
+    width: 75%;
+}
+}
